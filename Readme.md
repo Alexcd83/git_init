@@ -17,7 +17,7 @@ https://psutil.readthedocs.io/en/latest/
 metrics_cpu.py and metrics_mem.py
 ```
 
-### Running scripts CPU
+### Running script CPU
 
 Open Linux CLI input full path to this files
 For exampl:
@@ -37,7 +37,7 @@ system.cpu.steal - 0.0
 system.cpu.system - 126.63
 
 ```
-### Running scripts MEM
+### Running script MEM
 
 Open Linux CLI input full path to this files
 For exampl:
