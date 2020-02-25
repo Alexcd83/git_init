@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import psutil
 m=psutil.virtual_memory()
 print("Memory Metrics:")
@@ -10,7 +12,3 @@ w=psutil.swap_memory()
 print("swap total - %r" % w.total)
 print("swap used - %r" % w.used)
 print("swap free - %r" % w.free)
-
-python3 ./metrics_cpu/metrics_cpu.py
-python3 ./metrics_mem/metrics_mem.py
-/home/ubuntu/metrics_cpu/metrics_cpu.py

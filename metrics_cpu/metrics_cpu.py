@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import psutil
 p=psutil.cpu_times()
 print("CPU Metrics:")
